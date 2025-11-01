@@ -3,6 +3,3 @@
         <h1><?= htmlspecialchars($TitleName); ?></h1>
     </div>
 </nav>
-<style>
-
-</style>
