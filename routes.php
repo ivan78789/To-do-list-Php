@@ -15,6 +15,9 @@ post('/delete', 'include/delete.php');
 get('/update', 'include/update.php');
 post('/update', 'include/update.php');
 
+get('/show', 'include/show.php');
+// post('/show', 'include/show.php');
+
 
 
 any('/404', 'views/404.php');

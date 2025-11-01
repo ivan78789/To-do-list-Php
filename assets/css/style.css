@@ -183,3 +183,77 @@
 .task-btn:hover {
     background-color: #0056b3;
 }
+.task-view {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+}
+
+.task-title {
+    font-size: 24px;   /* крупный заголовок */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task-desc {
+    font-size: 18px;   /* текст побольше, чтобы было удобно читать */
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.task-status {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.task-status.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task-actions a,
+.task-actions button {
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.task-actions .task-edit {
+    background-color: #007bff;
+    color: white;
+}
+
+.task-actions .task-edit:hover {
+    background-color: #0056b3;
+}
+
+.task-actions .task-delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.task-actions .task-delete:hover {
+    background-color: #b02a37;
+}
+
+.task-actions .task-back {
+    background-color: #6c757d;
+    color: white;
+}
+
+.task-actions .task-back:hover {
+    background-color: #5a6268;
+}

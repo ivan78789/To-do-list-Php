@@ -31,6 +31,7 @@ if($_SERVER['REQUEST_METHOD'] === 'GET'){
                 <h2 class="task-title"><?= htmlspecialchars($task['title']) ?></h2>
                 <p class="task-desc"><?= htmlspecialchars($task['description']) ?></p>
                 <span class="task-status"><?= htmlspecialchars($task['status']) ?></span>
+                <a href="/show?id=<?= htmlspecialchars($task['id']) ?>" class="task-edit">Просмотреть отдельно</a>
                 <a href="/update?id=<?= htmlspecialchars($task['id']) ?>" class="task-edit">Редактировать</a>
                 <a href="/delete?id=<?= htmlspecialchars($task['id']) ?>" class="task-delete">Удалить</a>
             </div>
